@@ -13,6 +13,6 @@ game.addFruit({ fruitId: 'fruit1', fruitX: 3, fruitY: 3 })
 
 console.log(game.state)
 
-server.listen(3000, () =>{
+server.listen( 5000, () =>{
     console.log('server listening on port: 3000')
 })
