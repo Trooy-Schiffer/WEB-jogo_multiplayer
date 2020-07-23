@@ -1,4 +1,4 @@
-import express from  'express'
+import express from 'express'
 import http from 'http'
 import createGame from './public/game.js'
 
@@ -13,6 +13,6 @@ game.addFruit({ fruitId: 'fruit1', fruitX: 3, fruitY: 3 })
 
 console.log(game.state)
 
-server.listen( 5000, () =>{
-    console.log('server listening on port: 3000')
+server.listen(3000, () => {
+    console.log('> server listening on port: 3000')
 })
